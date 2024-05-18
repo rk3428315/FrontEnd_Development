@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+#intro {
+    height: 62%;
+    width: 100%;
+    background-color: rgba(232, 192, 228, 0.122);
+    display: flex;
+    padding: 70px;
+    padding-left: 70px;
+
+}
+
+#intro h1 {
+    font-size: 130px;
+    position: absolute;
+    line-height: 130px;
+    font-weight: 550;
+    letter-spacing: -3px;
+}
+
+#zero {
+    padding: 2px;
+    position: absolute;
+    right: 160px;
+    font-weight: 1000;
+    font-size: 20px;
+    border-radius: 100%;
+    border: 1.5px solid black;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+}
+
+#nav {
+    margin-top: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+
+#menu {
+    padding: 16px;
+    position: absolute;
+    right: 47px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 150px;
+    border: 1.5px solid black;
+    font-size: 21px;
+    color: white;
+    background-color: black;
+
+}
+
+#menu i {
+    padding: 3px;
+}
+
+#country {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+}
+
+#scroll {
+    position: absolute;
+    right: 8%;
+}
+
+#scroll i {
+    padding: 5px;
+}
+
+#hero-img {
+    width: 100%;
+    height: 90%;
+    background-image: url('https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-2000.webp');
+    background-size: cover;
+    border-radius: 30px 0px;
+}
+
+#about {
+    width: 100%;
+    height: 77%;
+    display: flex;
+    justify-content: space-between;
+    padding: 62px;
+}
+
+#aboutcontent {
+    font-size: 77px;
+    border-right: 3px solid black;
+    padding-right: 70px;
+}
+
+#aboutcontent1 {
+    position: absolute;
+    right: 20%;
+
+}
+
+#i1 {
+    padding: 10px;
+    position: absolute;
+    right: 450px;
+    top: 1539px;
+    color: white;
+    font-size: 22px;
+    border-radius: 100%;
+    border: 2px solid black;
+    background-color: black;
+}
+
+#i2 {
+    padding: 10px;
+    position: absolute;
+    right: 375px;
+    top: 1539px;
+    color: white;
+    font-size: 22px;
+    border-radius: 100%;
+    background-color: black;
+    border: 2px solid black;
+}
+
+#i3 {
+    padding: 10px;
+    position: absolute;
+    right: 300px;
+    top: 1539px;
+    color: white;
+    font-size: 22px;
+    border-radius: 100%;
+    background-color: black;
+    border: 2px solid black;
+}
+
+#work {
+    width: 100%;
+    height: 87%;
+    display: flex;
+
+}
+
+#whatwedo1 {
+    padding: 70px 50px;
+    width: 41%;
+    /* background-color: rgb(220, 16, 149); */
+    border-right: 3px solid black;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    font-weight: 1500;
+    font-size: 20px;
+}
+
+#whatwedo2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 75px;
+    width: 74%;
+    font-size: 21px;
+}
+
+#interaction-motion {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#art1 {
+    border-right: 3px solid rgb(12, 12, 12);
+    padding-right: 40px;
+}
+
+#art2 {
+    position: absolute;
+    right: 3%;
+}
+
+#digital-art {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+    padding-bottom: 50px;
+}
+
+#motion1 {
+    border-right: 3px solid rgb(12, 12, 12);
+    padding-right: 40px;
+}
+
+#motion2 {
+    position: absolute;
+    right: 3%;
+}

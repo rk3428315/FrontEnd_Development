@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(243, 210, 238);
+    border-radius: 24px;
+}
+
+.nav {
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+#nav-part1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2px;
+}
+
+.nav h3,i {
+    font-size: 22px;
+    font-weight: 600;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+
+#nav-part2 h1 {
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+#nav-part3 button {
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#btn2 {
+    background-color: orangered;
+    color: white;
+    border: none !important;
+}
+
+#main>h1 {
+    font-size: 150px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 40%;
+    transform: translate(-50% -50%);
+    width: 100%;
+    text-align: center;
+    font-weight: 100;
+
+}
+
+img {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    position: absolute;
+    top: 27%;
+    left: 40%;
+    transform: translate(-50% -50%);
+    border-radius: 20px;
+}
+
+#img1 {
+    rotate: -30deg;
+}
+
+#img2 {
+    rotate: -20deg;
+}
+
+#img3 {
+    rotate: -10deg;
+}
+
+#btm-left {
+    position: absolute;
+    bottom: 7%;
+    font-size: 17px;
+    left: 3%;
+}
+
+#btm-right {
+    position: absolute;
+    bottom: 7%;
+    transform: translate(-50% -50%);
+    font-size: 17px;
+    right: 3%;
+}
+
+#icon-right {
+    width: 139px;
+    position: absolute;
+    bottom: 11%;
+    right: 4%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#arrow-icon {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+}
