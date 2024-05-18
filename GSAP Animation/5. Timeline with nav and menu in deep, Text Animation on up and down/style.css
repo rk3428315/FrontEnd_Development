@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#main {
+
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    background-image: url(https://wallpaperswide.com/download/naruto_illustration-wallpaper-5120x2880.jpg);
+    object-fit: fill;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5vw;
+    color: rgb(171, 171, 171);
+}
+
+#nav i {
+    font-size: 1.5vw;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#nav h2 {
+
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+#full {
+    height: 100%;
+    width: 30%;
+    background-color: rgba(112, 128, 144, 0.338);
+    position: absolute;
+    right: 0;
+    top: 0;
+    backdrop-filter: blur(2vw);
+    padding: 7vw 5vw;
+    right: -30%;
+    z-index: 10;
+}
+
+#full h4 {
+    color: rgb(171, 171, 171);
+    font-size: 2vw;
+    font-weight: 700;
+    margin-bottom: 1vw;
+}
+
+#full i {
+    color: rgb(171, 171, 171);
+    font-size: 1.5vw;
+    font-weight: 700;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    background-color: rgba(255, 255, 255, 0.323);
+    padding: .5vw;
+    border-radius: 40%;
+    cursor: pointer;
+}
+
+
+#share {
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    bottom: 5%;
+    right: 5%;
+
+}
+
+#inst-twitter {
+    position: relative;
+    /* background-color: salmon; */
+    width: 8vw;
+    height: 4vw;
+    display: flex;
+    gap: .2vw;
+}
+
+
+#insta {
+    position: relative;
+    background-color: slategray;
+    width: 48%;
+    height: 96%;
+    border-radius: 90% 10% 0% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+#insta i {
+    bottom: 40%;
+    font-size: 1.5vw;
+}
+
+#insta:hover {
+    color: black;
+    background-color: skyblue;
+}
+
+#twitter {
+    background-color: slategray;
+    width: 48%;
+    height: 96%;
+    border-radius: 10% 90% 10% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#twitter i {
+    bottom: 40%;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+#twitter:hover {
+    color: black;
+    background-color: rgb(172, 113, 231);
+}
+
+
+#git-fb {
+    position: relative;
+    width: 8vw;
+    height: 4vw;
+    display: flex;
+    gap: .2vw;
+
+}
+
+
+#git {
+    background-color: slategray;
+    width: 48%;
+    height: 96%;
+    border-radius: 10% 0% 10% 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#git i {
+    bottom: 40%;
+    font-size: 1.5vw;
+}
+
+#git:hover {
+    color: black;
+    background-color: rgb(232, 141, 131);
+}
+
+#fb {
+    background-color: slategray;
+    width: 48%;
+    height: 96%;
+    border-radius: 0% 10% 90% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#fb i {
+    bottom: 40%;
+    font-size: 1.5vw;
+}
+
+#fb:hover {
+    color: black;
+    background-color: rgb(49, 167, 90);
+}
+
+#share-icon {
+
+    width: 3vw;
+    height: 3vw;
+    background-color: rgb(199, 205, 229);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10%;
+    right: 7.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 8;
+}
+
+#share-icon i {
+    font-size: 2vw;
+    color: #012029cd;
+    cursor: pointer;
+}
+
+#share-icon:hover {
+    background-color: rgb(44, 79, 218);
+}
+
+
+/* Page2 Animation */
+#page2 {
+    height: 100%;
+    width: 100%;
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+#move {
+    height: 20vw;
+    display: flex;
+    /* white-space:nowrap; */
+    overflow-x: hidden;
+}
+
+.marque {
+    display: flex;
+    flex-shrink: 0;
+    gap: 3vw;
+    background-color: aquamarine;
+    padding: 4vw;
+    height: 15vw;
+    align-items: center;
+    transform: translateX(-100%);
+}
+
+.marque img {
+    height: 5vw;
+}
+
+.marque h1 {
+    font-size: 4vw;
+    color: black;
+    text-transform: uppercase;
+}
+
+/* ================================== */
+
+
+/* Text Animation  */
+.textAnimation {
+    position: absolute;
+    top: 24%;
+    left: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: skyblue;
+}
+
+h1 {
+    font-size: 2vw;
+    overflow: hidden;
+}
+
+h1 span {
+    display: inline-block;
+}
+
+/* ====================================================== */
